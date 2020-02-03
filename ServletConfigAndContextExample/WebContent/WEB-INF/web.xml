@@ -6,7 +6,12 @@
   <servlet>
   	<servlet-name>abc</servlet-name>
   	<servlet-class>com.khaplu.MyServlet</servlet-class>
+  	<init-param>
+  		<param-name>lastName</param-name>
+  		<param-value>Hameed</param-value>
+  	</init-param>
   </servlet>
+  
   <servlet-mapping>
   	<servlet-name>abc</servlet-name>
   	<url-pattern>/home</url-pattern>
